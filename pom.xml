@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>blog</name>
 	<description>Demo project for Spring Boot</description>
+	
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -22,12 +23,12 @@
 			<artifactId>spring-boot-starter-thymeleaf</artifactId> <!--подключаем шаблонизатор -->
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
+			<groupId>org.springframework.boot</groupId> <!--Позволяет реализовать схему MVC-->
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
+			<artifactId>spring-boot-devtools</artifactId> <!--Позволяет запускать локальный web сервер-->
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
