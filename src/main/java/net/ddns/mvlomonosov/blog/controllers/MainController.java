@@ -11,13 +11,13 @@ public class MainController {
 	@GetMapping("/")
 	public String main(Model model) {
 		model.addAttribute("title", "Главная страница");
-		return "main"; //открываем шаблон
+		return "main"; //открываем шаблон main
 	}
 
     @GetMapping("/about")
 	public String about(Model model) {
 		model.addAttribute("title", "Страница про нас");
-		return "about"; //открываем шаблон
+		return "about"; //открываем шаблон about
 	}
 
 }
